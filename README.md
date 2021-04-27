@@ -24,19 +24,21 @@
 
 ## 快速开始
 
-下载最新的 Halo 运行包：
+### Fat Jar
 
-其他地址：https://docs.halo.run/install/downloads
+下载最新的 Halo 运行包：
 
 ```bash
 curl -L https://github.com/halo-dev/halo/releases/download/v1.4.8/halo-1.4.8.jar --output halo.jar
 ```
 
+其他地址：https://docs.halo.run/install/downloads
+
 ```bash
 java -jar halo.jar
 ```
 
-### Docker:
+### Docker
 
 ```bash
 docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=always halohub/halo
